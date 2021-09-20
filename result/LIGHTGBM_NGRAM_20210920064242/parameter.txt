@@ -1,5 +1,0 @@
-DATA={'train': 'data/final_dataset_train.tsv', 'testA': 'data/final_dataset_testA.tsv'}
-FEATURE={'selected': 'ngram', 'hyperameters': {'ngram': {'kfold': 6}}}
-MODEL={'selected': 'lightgbm', 'hyperameters': {'lightgbm': {'built_in': {'objective': 'regression', 'learning_rate': 0.05, 'max_depth': 6, 'num_leaves': 32, 'bagging_fraction': 0.7, 'feature_fraction': 0.7, 'num_threads': 64, 'verbose': -1}, 'custom': {'num_boost_round': 2048}}}}
-RESULT_DIR=result
-TRAIN={'selected': 'train_test', 'hyperameters': {'train_kfold': {'kfold': 10}, 'train_val': {'split': 0.2}}}
